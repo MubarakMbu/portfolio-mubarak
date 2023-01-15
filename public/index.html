@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/mubarak.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <script src="https://kit.fontawesome.com/eb7f5f09de.js" crossorigin="anonymous"></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Mubarak's Portfolio</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.min.js"></script>
+    <script>
+     //Nav bar
+      $(document).ready(function(){
+        $('.sidenav').sidenav();
+      });
+
+      $(".section").hide();
+      setTimeout(function () {
+        $(document).ready(function () {
+          $(".section").fadeIn();
+          $(".loader").fadeOut();
+          $(".sidenav").sidenav();
+        });
+      }, 1000);
+
+      //carousel used for portfolio.
+      $(document).ready(function () {
+        $(".carousel").carousel({
+          fullWidth: true,
+          indicators: true,
+          duration: 100,
+          dist: 0,
+          padding: 0
+        });
+      });
+    </script>
+  </body>
+</html>

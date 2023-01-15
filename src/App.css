@@ -1,0 +1,25 @@
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.flex-container{
+  font-size: 2rem;
+}
+.portfolio__proj{
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: contain;
+  margin: 0;
+}
+.porfolio__tindog{
+  background-image: url('../public/images/tindog.png');
+}
+
+.porfolio__messenger{
+  background-image: url('../public/images/messenger.png');
+}
+
+.porfolio__buttons{
+  margin: 5%;
+}
