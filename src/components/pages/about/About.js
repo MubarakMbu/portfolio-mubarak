@@ -20,10 +20,10 @@ export default function About() {
           <div className="row mt">
             <div className="col xl6 l6 m6 s12">
               <p>
-                <strong>Email:</strong> memubarak99@gmail.com
+                <strong>Email:</strong>qwerty@gmail.com
               </p>
               <p>
-                <strong>Phone:</strong> 815 103 8316
+                <strong>Phone:</strong> 123 456 7891
               </p>
             </div>
             <div className="col xl6 l6 m6 s12">
